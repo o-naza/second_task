@@ -22,7 +22,7 @@ Playwright is a framework for Web Testing and Automation. It allows testing [Chr
 
 Download the repository
 ```bash
-git clone https://github.com/o-naza/123123.git
+git clone https://github.com/o-naza/second_task.git
 ```
 Open the downloaded folder, and run the command
 ```bash
