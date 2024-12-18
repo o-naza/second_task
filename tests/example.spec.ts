@@ -1,6 +1,8 @@
-import { test, expect } from '@playwright/test';
+import { App } from './../app/index';
+import { test } from '@playwright/test';
 
-test(`Verifies that the page title is 'Example Domain'`, async ({ page }) => {
-  await page.goto('http://example.com/');
-  await expect(page.getByRole('heading', { name: 'Example Domain' })).toBeVisible()
+test(`Verifies that the page title is 'Example Domain'`, { tag: ['@Smoke'] }, async ({ page }) => {
+  const app = new App(page);
+  await app.homePage.open();
+  await app.homePage.expectLoaded()
 });
