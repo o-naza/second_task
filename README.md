@@ -30,7 +30,7 @@ npm install
 npx playwright install
 ```
 ## Run tests & report
-To start the test suite run the following command:
+To start the test suite run the following commands:
 ```bash
 npx playwright test
 ```
