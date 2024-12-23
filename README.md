@@ -27,6 +27,7 @@ git clone https://github.com/o-naza/second_task.git
 Open the downloaded folder, and run the command
 ```bash
 npm install
+npx playwright install
 ```
 ## Run tests & report
 To start the test suite run the following command:
