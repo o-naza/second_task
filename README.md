@@ -24,13 +24,13 @@ Download the repository
 ```bash
 git clone https://github.com/o-naza/second_task.git
 ```
-Open the downloaded folder, and run the command
+Open the downloaded folder, and run the commands:
 ```bash
 npm install
 npx playwright install
 ```
 ## Run tests & report
-To start the test suite run the following commands:
+To start the test suite run the following command:
 ```bash
 npx playwright test
 ```
@@ -40,7 +40,7 @@ npx playwright show-report
 ```
 
 ### Debugging and running the exact test 
-This command will run the tests in UI mode
+This command will run the tests in UI mode:
 ```bash
 npx playwright test --ui
 ```
